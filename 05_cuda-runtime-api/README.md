@@ -1,4 +1,4 @@
-### Вывод информацию о GPU, используя CUDA Runtime API
+### Вывод информации о GPU, используя CUDA Runtime API
 
 Компиляция:
 ```bash
