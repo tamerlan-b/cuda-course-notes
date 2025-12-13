@@ -10,3 +10,4 @@
 1. [Получение информации о GPU через CUDA Runtime API](05_cuda-runtime-api/README.md)
 1. [Получение информации о warp'ах](06_cuda_max_warps/README.md)
 1. [Обработка ошибок CUDA](07_error_checking/README.md)
+1. [Профилирование с помощью ncu](08_ncu_profiling/README.md)
