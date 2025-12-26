@@ -5,13 +5,19 @@
 nvcc test.cu -o test
 ```
 
+Запуск с профилированием:
 ```bash
 ncu ./test
 ```
 
-Если команда выше не работает (в zsh и Linux), то можно более полную версию написать:
+Если команда выше не работает (в zsh и Linux), то можно: 
+а) написать более полную версию:
 ```bash
 sudo /usr/local/cuda/bin/ncu ./test
+```
+б) добавить в `PATH` путь до бинарников:
+```bash
+export PATH=/usr/local/cuda/bin/:$PATH
 ```
 
 Показать какую-то конкретную секцию:
@@ -42,3 +48,8 @@ ncu --metrics sm__inst_executed ./test
 ncu --metrics sm__inst_executed --csv ./test > metrics.csv
 ```
 
+Запуск CUDA-приложения с возможностью профилирования через ncu-ui:
+```bash
+ncu --mode=launch test
+```
+После этого можно подключиться к программе в UI через Attach
