@@ -11,3 +11,4 @@
 1. [Получение информации о warp'ах](06_cuda_max_warps/README.md)
 1. [Обработка ошибок CUDA](07_error_checking/README.md)
 1. [Профилирование с помощью ncu](08_ncu_profiling/README.md)
+1. [Анализ производительности с помощью ncu и python](09_performance_analysis/README.md)
